@@ -48,7 +48,7 @@ def writeFileToHdfs(hostName, userName, writePath, dataframe, fileName):
     
 
 """
-Reads the tables from production ec_consolidated zone and assigns to a pandas dataframe using createDataDictionary
+Reads the hive tables from production assigns to a pandas dataframe using createDataDictionary
 Write dataframe out as CSV File in HDFS dev using writeFileToHdfs function
 
 
